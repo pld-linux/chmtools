@@ -1,0 +1,23 @@
+--- chmtools/chmlib.h.orig	2002-01-08 05:01:31.000000000 +0100
++++ chmtools/chmlib.h	2003-11-26 21:16:59.177783736 +0100
+@@ -19,8 +19,7 @@
+ */
+ 
+ #include <stdio.h>
+-typedef unsigned long ulong;
+-// typedef unsigned short ushort; Already defined for Darwin
++#include <stdlib.h>
+ typedef unsigned char ubyte;
+ 
+ typedef struct guid_t
+--- chmtools/chmlib.c.orig	2001-10-14 22:37:30.000000000 +0200
++++ chmtools/chmlib.c	2003-11-26 21:16:32.774797600 +0100
+@@ -162,7 +162,7 @@
+   int nentries;
+   int nchunks;
+   pmglchunkheader pmglch;
+-  fpos_t chunkstart;
++  long chunkstart;
+   
+   readdirheader(c);
+   chunkstart = ftell(c->cf);
