@@ -2,7 +2,7 @@ Summary:	CHM Tools
 Summary(pl):	Narzêdzia CHM
 Name:		chmtools
 Version:	0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.speakeasy.org/~russotto/chm/%{name}.tar.gz
