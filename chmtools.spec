@@ -1,5 +1,5 @@
 Summary:	CHM Tools
-Summary(pl):	Narzêdzia CHM
+Summary(pl.UTF-8):   NarzÄ™dzia CHM
 Name:		chmtools
 Version:	0
 Release:	2
@@ -17,11 +17,11 @@ consisting of a C language library (called "chmlib" too, but different
 from chmlib package), a program called 'chmdump' which dumps out the
 files in a CHM file and (incomplete) CHM format documentation.
 
-%description -l pl
-Pakiet CHM Tools to zbiór narzêdzi do pracy z plikami CHM, sk³adaj±cy
-siê z biblioteki w C (o nazwie tak¿e "chmlib", ale innej ni¿ ta z
-pakietu chmlib), programu "chmdump" zrzucaj±cego pliki z pliku CHM
-oraz (niepe³nej) dokumentacji do formatu CHM.
+%description -l pl.UTF-8
+Pakiet CHM Tools to zbiÃ³r narzÄ™dzi do pracy z plikami CHM, skÅ‚adajÄ…cy
+siÄ™ z biblioteki w C (o nazwie takÅ¼e "chmlib", ale innej niÅ¼ ta z
+pakietu chmlib), programu "chmdump" zrzucajÄ…cego pliki z pliku CHM
+oraz (niepeÅ‚nej) dokumentacji do formatu CHM.
 
 %prep
 %setup -q -n %{name}
