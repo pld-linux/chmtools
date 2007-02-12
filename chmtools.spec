@@ -1,5 +1,5 @@
 Summary:	CHM Tools
-Summary(pl.UTF-8):   Narzędzia CHM
+Summary(pl.UTF-8):	Narzędzia CHM
 Name:		chmtools
 Version:	0
 Release:	2
