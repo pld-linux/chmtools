@@ -2,7 +2,7 @@ Summary:	CHM Tools
 Summary(pl.UTF-8):	Narzędzia CHM
 Name:		chmtools
 Version:	0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.speakeasy.org/~russotto/chm/%{name}.tar.gz
