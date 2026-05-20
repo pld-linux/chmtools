@@ -2,7 +2,7 @@ Summary:	CHM Tools
 Summary(pl.UTF-8):	Narzędzia CHM
 Name:		chmtools
 Version:	0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.speakeasy.org/~russotto/chm/%{name}.tar.gz
@@ -30,7 +30,7 @@ oraz (niepełnej) dokumentacji do formatu CHM.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags} %{rpmcppflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
